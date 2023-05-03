@@ -4,55 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "276919388f9e9bfc",
+        "id": "c1bcb7614f0ae1c7",
         "type": "tabs",
         "children": [
           {
-            "id": "d8d87d777093e6ed",
+            "id": "ab7541a5caf2ad9e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/notes/testes-estaticos.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "26f23c94111c74ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/notes/testes-estaticos.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7ffe33070667d57",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/notes/testes-unitarios.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3001b0ca075efd43",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/notes/testes-integracao.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -121,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/notes/testes-estaticos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/notes/testes-estaticos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,17 +118,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/notes/testes-estaticos.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,9 +140,11 @@
   "active": "a3f451a3b6648455",
   "lastOpenFiles": [
     "content/notes/testes.md",
-    "content/notes/testes-unitarios.md",
-    "content/notes/testes-estaticos.md",
     "content/notes/testes-integracao.md",
+    "content/notes/Untitled.md",
+    "content/notes/testes-estaticos.md",
+    "Untitled.md",
+    "content/notes/testes-unitarios.md",
     "content/notes/testes-regressao.md",
     "content/notes/testes-aceitacao.md",
     "content/notes/troubleshooting.md",
