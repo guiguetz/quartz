@@ -1,7 +1,8 @@
 ---
-title: "Testes estáticos
+title: "Testes estáticos"
 alias: "Testes estáticos"
 ---
+
 Os testes estáticos são testes que avaliam o código-fonte sem a necessidade de executá-lo. Eles são usados para identificar potenciais problemas no código antes que o software seja executado e, assim, reduzir o número de erros no sistema. Em outras palavras, os testes estáticos avaliam o código-fonte antes da compilação e da execução, e ajudam a identificar problemas como erros de sintaxe, erros de lógica, vulnerabilidades de segurança, código duplicado, entre outros.
 
 Existem diversas ferramentas e técnicas para realizar testes estáticos. Alguns exemplos incluem:
