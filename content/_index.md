@@ -1,9 +1,9 @@
 ---
-title: 🪴 Quartz 3.3
+title: 🪴 Quartz
 enableToc: false
 ---
 
-Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
+Seja bem vindo ao meu segundo cérebro! Algumas das funcionalidades:
 
 1. Extremely fast natural-language [[notes/search]]
 2. Customizable and hackable design based on [Hugo](https://gohugo.io/)
