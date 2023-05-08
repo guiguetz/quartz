@@ -3,9 +3,17 @@ title: "Testes unitários"
 alias: "Testes unitários"
 ---
 
-Testes unitários são [[testes]] automatizados que visam testar unidades isoladas de código, como funções, métodos ou classes, de forma individual e independente de outras partes do sistema. O objetivo dos testes unitários é verificar se essas unidades de código estão funcionando corretamente, de acordo com as especificações definidas, e detectar possíveis erros ou comportamentos inesperados.
+Os testes unitários são um tipo de teste automatizado que verifica o comportamento de partes individuais do código, como funções, métodos ou classes, isolando-as de outras partes do sistema. O objetivo dos testes unitários é garantir que as partes individuais do código funcionem corretamente, de acordo com sua especificação, em diferentes cenários.
 
-Os testes unitários são importantes porque garantem que as unidades de código estejam funcionando corretamente e que possíveis erros sejam detectados o mais cedo possível no processo de desenvolvimento, quando é mais fácil e mais barato corrigi-los. Além disso, os testes unitários permitem que as unidades de código sejam testadas de forma isolada, sem depender de outras partes do sistema, o que facilita a identificação e correção de erros.
+Os testes unitários são escritos geralmente pelos próprios desenvolvedores, e são executados a cada nova alteração de código para garantir que a funcionalidade não tenha sido afetada. Esses testes são escritos em uma linguagem de teste, como JUnit para Java, NUnit para .NET ou Mocha para JavaScript, e são executados automaticamente por meio de ferramentas de integração contínua, como o Jenkins ou o Travis CI.
+
+Os testes unitários têm várias vantagens, como:
+
+- Detectar problemas de forma rápida e precisa em partes individuais do código, tornando mais fácil corrigir problemas antes que eles se propaguem para outras partes do sistema;
+- Permitir que os desenvolvedores testem o código em cenários específicos, garantindo que a funcionalidade esteja correta mesmo quando as condições mudam;
+- Servir como documentação do código, já que um teste unitário bem escrito pode ser usado para entender como uma parte do sistema deve se comportar.
+
+Para escrever testes unitários eficazes, é importante ter em mente que cada teste deve ser independente, isolado de outros testes e sem dependências externas. O teste deve ser construído em torno de uma hipótese e um conjunto de entradas que se espera que produza uma determinada saída. A saída do teste deve ser verificada automaticamente, usando assertivas ou outras ferramentas de teste, para confirmar se a hipótese é verdadeira.
 
 Um exemplo de teste unitário em JavaScript, utilizando a biblioteca Jest, seria o seguinte:
 
@@ -19,12 +27,12 @@ describe("Teste da função soma", () => {
     expect(soma(1, 1)).toBe(2)
   })
 
-  test("Deve retornar 0 ao somar 0 + 0", () => {
-    expect(soma(0, 0)).toBe(0)
+  test("Deve retornar 3 ao somar 2 + 1", () => {
+    expect(soma(2, 1)).toBe(3)
   })
 
-  test("Deve retornar -2 ao somar -1 + -1", () => {
-    expect(soma(-1, -1)).toBe(-2)
+  test("Deve retornar 0 ao somar -1 + 1", () => {
+    expect(soma(-1, 1)).toBe(0)
   })
 })
 ```
